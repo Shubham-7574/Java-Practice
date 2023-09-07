@@ -11,6 +11,6 @@ class Hello
         System.out.println("Enter second no.");
         int num2=sc.nextInt();
         int result= num1+num2;
-        System.out.println( "result = "+result);
+        System.out.println( "result = "+result); //+ sign use for concatination
     }
 }
