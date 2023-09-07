@@ -1,7 +1,7 @@
 # Java-Practice
 import java.util.Scanner;
 
-class Hello
+class Addition
 {
     public static void main(String[] args)
     {
