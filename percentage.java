@@ -11,6 +11,6 @@ class Percentage
         double mark = sc.nextDouble();
         double mark1=mark;
         double per= mark1 /5;
-        System.out.println(per);
+        System.out.println("Percentage "+per);
     }
 }
