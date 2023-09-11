@@ -1,0 +1,30 @@
+# Java-Practice
+class Relational
+{
+    public static void main(String[] args) 
+    {
+        
+    
+        int num = -4;
+        int num1= 5;
+        int x = -12;
+        int y = 44;
+
+        boolean result = num > num1;
+        System.out.println(result);
+        boolean result1 = num < num1;
+        System.out.println(result1);
+        boolean result2 = num != num1;
+        System.out.println(result2);
+        boolean result3 = num == num1;
+        System.out.println(result3);
+        boolean Total = x <= y;
+        System.out.println(Total);
+        boolean Total1 = x >= y;
+        System.out.println(Total1);
+        
+        
+
+        
+    }
+}
