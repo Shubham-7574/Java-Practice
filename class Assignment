@@ -1,0 +1,35 @@
+# Java-Practice
+class Assignment
+{
+    public static void main(String args[])
+    {
+        int num1 = 6;
+        int num2 = 8;
+        int num3 = 4;
+        int num4 = 9; 
+        int num5 = 4;       
+
+        int result1 = num1 + num2;
+        System.out.println(result1);
+        int result2 = num1 - num2;
+        System.out.println(result2);
+        int result3 = num1 * num3;
+        System.out.println(result3);
+        int result4 = num1 / num2; //we get only quotient if we use "/"
+        System.out.println(result4);
+        int result5 = num1 % num4; //we get only remainder if we use "%"
+        System.out.println(result5);
+        num1 = num1+5;
+        System.out.println(num1);
+        num2 +=5;
+        System.out.println(num2);
+        num3++;                     // incremented by one post increment
+        System.out.println(num3);
+        num3--;                     // decremented by onepost decrement
+        System.out.println(num3);
+         ++num4;                     // incremented by one "pre increment"
+        System.out.println(num4);
+        --num5;                     // decremented by one "pre decrement"
+        System.out.println(num5);
+    }
+}
