@@ -1,0 +1,13 @@
+# Java-Practice
+class Demoifelse
+{
+    public static void main(String args[]) {
+        int x = 45;
+        if(x>8)
+        System.out.println("x is Greater than 8");
+
+        else
+        System.out.println("lesser than 8");
+
+    }
+}
