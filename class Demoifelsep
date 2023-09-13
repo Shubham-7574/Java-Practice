@@ -1,0 +1,32 @@
+# Java-Practice
+class Demoifelsep
+{
+    public static void main(String args[]) {
+        int x = 45;
+        int y = 30;
+        int z = 55;
+        if(x>8 && x<40)   // using AND Operator
+        System.out.println("Number in between 8 to 40");
+
+        else
+        System.out.println("not in between 8 to 40");
+
+        if (y>10 || y<15) // if else using OR Condition
+        System.out.println("number in btweeen 10 to 15");
+
+        else
+        System.out.println("number is nit in between 10 to 15");
+
+
+        if(x>y && x>z)
+        System.out.println(x);
+
+        else if (y>x || y>z)
+        System.out.println(y);
+         
+        else 
+        System.out.println(z);
+
+
+    }
+}
