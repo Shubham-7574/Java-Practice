@@ -1,0 +1,27 @@
+class WhileLoop
+{
+    public static  void main(String[] args)
+    {
+        int i = 1;
+
+        while(i<=4)
+        {
+            System.out.println("Week" + i);
+            int j = 1;
+            while(j<=1)
+            {
+            System.out.println("Monday");
+              System.out.println("Tuesday");
+              System.out.println("Wednesday");
+              System.out.println("Thursday");
+              System.out.println("Friday"); 
+              System.out.println("Saturday");
+              System.out.println("Sunday");
+
+            j++;
+        }
+        i++;
+    }
+}
+}
+/* print 4 week from 1 month  */
